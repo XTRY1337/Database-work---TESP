@@ -3,7 +3,7 @@
 
 bla bla bla bla
 
-# 2- Base de dados
+# 2- Modelo E-R-
 bla bla bla
 ## 2.1- Nome BD
 bla bla bla
