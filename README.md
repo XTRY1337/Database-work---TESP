@@ -5,6 +5,7 @@ bla bla bla bla
 bla bla bla
 ## 2.1- Descrição da BD
 bla bla bla
+![Aal text](Imagens/1.PNG "Imagem")
 ## 2.2- Entidades-tipo
 bla bla bla
 ## 2.3- Entidades-fracas
