@@ -153,12 +153,12 @@ INFORMAR (FUNCIONARIO,PACIENTE,LABORATORIO,COMUNICACAO)
 
 O modelo lógico mostra as ligações entre as tabelas de bases de dados, as chaves primárias, os componentes de cada uma, etc.
 
-![Aal text](imagens/covid1.PNG "Imagem")
+![Aal text](Imagens/covid1.PNG "Imagem")
 ## 2.7- Modelo Relacional
 
 O modelo Relacional (ou Físico) é a instanciação do Modelo Lógico numa Base de Dados específica, seguindo as regras próprias dessa Base de Dados.
 
-![Aal text](imagens/covid2.PNG "Imagem")
+![Aal text](Imagens/covid2.PNG "Imagem")
 
 # 3- Exemplos de uso da syntax dos comandos SQL
 
