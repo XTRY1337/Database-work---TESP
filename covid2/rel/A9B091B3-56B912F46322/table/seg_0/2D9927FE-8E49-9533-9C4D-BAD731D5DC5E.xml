@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D9927FE-8E49-9533-9C4D-BAD731D5DC5E" name="MARCARTESTE">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:21:02 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DATAS_DATAS_ID" id="F876BB91-6257-A299-BBC9-87002DFE09CE">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:21:02 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91427B7F-3629-5968-5CFC-4AB295B190BD" referredColumn="0C2BDA32-9E92-E4D2-4586-50BEAEEB9A11"/>
+</associations>
+</Column>
+<Column name="LABORATORIO_Contribuinte" id="A1DB6E13-32C9-EF4D-33C0-BFBD0AACCE0C">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:21:02 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7A7D4ADC-7AEB-D292-27AB-D750137C6CCB" referredColumn="5BED1175-8F2A-235D-3619-3351A2C38EBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8EE8C772-AD21-D19C-C6D5-80471B8E8131" name="MARCARTESTE_PK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:21:02 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F876BB91-6257-A299-BBC9-87002DFE09CE"/>
+<colUsage columnID="A1DB6E13-32C9-EF4D-33C0-BFBD0AACCE0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8813BF9C-DA40-3F99-FA72-C2527F83C9DF" name="MARCARTESTE_DATAS_FK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:21:02 UTC</createdTime>
+<generatorID>FDBADDDB-220D-6A27-CB41-FFA69FCCAEC0</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F876BB91-6257-A299-BBC9-87002DFE09CE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DC147B9D-2350-DA39-D5F0-4F772F059A27" name="MARCARTESTE_LABORATORIO_FK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:21:02 UTC</createdTime>
+<generatorID>FDBADDDB-220D-6A27-CB41-FFA69FCCAEC0</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A1DB6E13-32C9-EF4D-33C0-BFBD0AACCE0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
