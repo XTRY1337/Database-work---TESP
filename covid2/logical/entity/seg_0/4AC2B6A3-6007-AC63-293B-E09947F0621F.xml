@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4AC2B6A3-6007-AC63-293B-E09947F0621F" name="DATAS">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:18:12 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Timestamp" id="5093019D-5810-24CD-EFA4-E84B3B4C1152">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:18:19 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPaciente" id="81D21F88-C209-EDDE-B53D-8511031042C1">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:39:25 UTC</createdTime>
+<generatorID>7D8A6FBE-0550-8EDD-B034-27DB41D4FBE4</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<referedAttribute>A6720DE8-488A-132A-E4F2-AF856B8BAD66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
