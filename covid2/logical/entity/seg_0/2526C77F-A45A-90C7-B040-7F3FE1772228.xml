@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2526C77F-A45A-90C7-B040-7F3FE1772228" name="LABORATORIO">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 13:52:01 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="IDLab" id="4174E3DF-B54C-BAC0-15C3-B0D5E2A8CF7C">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 13:52:11 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Contribuinte" id="ED898AE9-7D48-04BA-33EE-4C1DC1B0307C">
+<createdBy>I7</createdBy>
+<createdTime>2021-07-11 14:19:39 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="1D33FA8F-2983-EEC6-7DEE-854912AE531B">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 13:52:28 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefone" id="84857B32-C9C9-1B6E-41BA-F49B3AAABD7C">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 13:52:45 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FE832317-D318-AEAA-6310-A00799130CC9" name="LABORATORIO PK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 13:52:21 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4174E3DF-B54C-BAC0-15C3-B0D5E2A8CF7C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
