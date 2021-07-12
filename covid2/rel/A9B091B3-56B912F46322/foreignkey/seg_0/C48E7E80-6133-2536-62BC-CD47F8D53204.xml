@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C48E7E80-6133-2536-62BC-CD47F8D53204" containerWithKeyObject="8EA4F18E-E168-8581-72B7-A11AA1D270B7" localFKIndex="3C8608D1-526E-C12C-4C7D-2D681ED7635B" name="FUNCAO_FUNCIONÁRIO_FK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:21:02 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<referredTableLongName>FUNCIONÁRIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4CCACED0-2B3A-4CEC-6880-CEA7F28C5591</referredTableID>
+<keyObject>8305909D-A4C1-F077-D63D-F2B08E75F46A</keyObject>
+<referredKeyID>8305909D-A4C1-F077-D63D-F2B08E75F46A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDFuncionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
