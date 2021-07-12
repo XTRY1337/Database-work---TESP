@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGISTAR_PM" directorySegmentName="seg_0" id="A2B8A4A5-5723-3CA3-FC51-C92031EB7C62">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:20:49 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<sourcePk>900A3B7D-8F5D-1F08-A8EF-0B796A583322</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>21DAA0C3-79A7-1047-DDB3-BCEEA92B9B13</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>425B8F24-95D7-B38C-EAAE-0A46B03EE6F5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
