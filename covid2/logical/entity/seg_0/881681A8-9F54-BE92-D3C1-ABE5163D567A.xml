@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="881681A8-9F54-BE92-D3C1-ABE5163D567A" name="DADOS">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:16:06 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nome" id="E029A3F2-B4D9-8E84-649C-767DF62DDA7F">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:16:20 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Genero" id="D8D6D3B0-26C5-B957-4A97-AF8DF2EE4661">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:16:45 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_Nascimento" id="E176E71C-2655-A283-3BBC-D3F2F31AC1CE">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:17:01 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDPaciente" id="53A2DE02-5946-B392-6D3B-852E90FC901C">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:21:14 UTC</createdTime>
+<generatorID>5631829B-4EA4-3FB2-94BF-D0A8D59F31FD</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<referedAttribute>A6720DE8-488A-132A-E4F2-AF856B8BAD66</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDFuncionario" id="DFC6B3DA-0158-8C28-0858-A25472D70D7A">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:21:59 UTC</createdTime>
+<generatorID>2AFBFE6A-4E69-C0EE-1378-234E7EB00E96</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<referedAttribute>6C576206-8885-46DC-ED58-510370C53446</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
