@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="28BD52CC-FC3B-7FB9-239C-2F0D2AE81075" name="FUNCAO">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 13:51:06 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Funcao_Id" id="F43E7930-1AE9-7D99-EE39-AEB88D779DE1">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 13:51:13 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Actividade" id="DF9DBDB1-0CD8-6AFA-2D16-6F927DB048A3">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 13:51:37 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="IDFuncionario" id="52D7442F-6EB6-AE3D-BEC1-5764A22DAE9F">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:18:49 UTC</createdTime>
+<generatorID>5F7EAEBB-3562-16F6-4A59-EC0064860456</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<referedAttribute>6C576206-8885-46DC-ED58-510370C53446</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9251D2F-9BFA-D3B8-B35D-3F9689A073EB" name="FUNCAO PK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 13:51:28 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F43E7930-1AE9-7D99-EE39-AEB88D779DE1</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
