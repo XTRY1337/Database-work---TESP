@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADC1FEEA-10F8-9B3F-C949-72F148192D3E" name="COMUNICACAO">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>62E9A526-83CD-6D0A-07D7-C35B01A9355A</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Telemovel" id="736C26D6-30A7-F2E5-585E-546B3E1999D2">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>2D103020-24B0-4257-9470-8CE6109B48C2</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Email" id="B5BF6827-01DA-61E7-C62F-BAF9F3684C6D">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>ECE28765-4D1D-D613-4A6D-501ABC3F1618</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Url_Webpage" id="37A57ADD-7ED8-2C8F-E87E-495A57FC27C5">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>C5E555CB-B8C1-9609-E46F-24446307C84E</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120</dataTypeSize>
+<ownDataTypeParameters>120,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PACIENTE_IDPaciente" id="8E77DE5D-73DE-860C-8E88-DF8F620B3031">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>E38498AC-0AD0-361B-4B6C-83C2F39C7303</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65F4966A-72F1-12DB-E21A-085BAD92A12C" referredColumn="471AD7E4-FB30-A2D3-5BE0-44819AE3CF94"/>
+</associations>
+</Column>
+<Column name="FUNCIONÁRIO_IDFuncionario" id="11DC10B3-FCF4-C995-8D39-13113A2BDFF2">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>3AC5A7A0-ABA6-267B-290B-558CA430A4A5</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D43F9B37-F306-77FE-1F0E-E4388AB01756" referredColumn="85007835-B420-0457-0B7E-8774D4DDE73F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7903513D-2018-D69D-372F-02CB607234AE" name="COMUNICACAO_Telemovel_UN">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>496E13B5-DAD4-257E-3A43-5A4624CB7BA0</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="736C26D6-30A7-F2E5-585E-546B3E1999D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BE7FA856-0DAE-FD73-32A5-C07AABEE5A74" name="COMUNICACAO_Email_UN">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>B0A8DA7C-CC73-A135-8BAC-B6EE497EF2B5</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5BF6827-01DA-61E7-C62F-BAF9F3684C6D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6C387CED-7EB1-3C2E-70A4-6CD6990F83BB" name="COMUNICACAO_Url_Webpage_UN">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>860B3960-7985-FED9-889C-9D8027CC3A30</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37A57ADD-7ED8-2C8F-E87E-495A57FC27C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D2A5C69-3562-8CAE-3D00-00FEAFC74FA1" name="COMUNICACAO_FUNCIONÁRIO_FK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<generatorID>66D384ED-9810-646C-4FAA-D9FB8F464583</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11DC10B3-FCF4-C995-8D39-13113A2BDFF2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64A857F1-F551-8EAE-0485-BA1401E87C1C" name="COMUNICACAO_PACIENTE_FK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<generatorID>000F849F-C625-0AEB-8C1B-1F1F3E0E711F</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E77DE5D-73DE-860C-8E88-DF8F620B3031"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
