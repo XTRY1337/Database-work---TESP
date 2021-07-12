@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="covid2" id="C4EC61BF-1AEF-B3B0-A56A-1A96022BCCF3" version="3.5">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 13:30:43 UTC</createdTime>
+<ownerDesignName>covid</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C4EC61BF-1AEF-B3B0-A56A-1A96022BCCF3</designId>
+</OSDM_Design>
