@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="MARCARTESTE" directorySegmentName="seg_0" id="FDBADDDB-220D-6A27-CB41-FFA69FCCAEC0">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:16:17 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<engineerTo>
+<item key="A9B091B3-64E1-788D-8C23-56B912F46322" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4AC2B6A3-6007-AC63-293B-E09947F0621F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2526C77F-A45A-90C7-B040-7F3FE1772228</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
