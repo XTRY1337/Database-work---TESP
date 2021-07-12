@@ -162,9 +162,7 @@ O modelo Relacional (ou Físico) é a instanciação do Modelo Lógico numa Base
 
 # 3- Exemplos de uso da syntax dos comandos SQL
 
-## 3.1- Geral
-
-## 3.2 SQL Server/Oracle/Mysql
+## 3.1 SQL Server/Oracle/Mysql
 
 ### INSERT
 
