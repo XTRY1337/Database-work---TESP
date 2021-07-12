@@ -187,11 +187,11 @@ DELETE FROM table_name WHERE condition;
 
 # 4- Conclusão
 
-O projeto de criação desta Base de Dados foi desafiador pelo fato de ser o primeiro contato que tivemos com o software SQL Developer e com Bases de Dados prática - já havíamos estudado um pouco de teoria em Levantamentos de Requisitos.
+O projeto de criação desta Base de Dados foi desafiador pelo fato de ser o primeiro contato que tivemos com o software SQL Developer e com Bases de Dados prática - já tinhamos estudado um pouco de teoria em Levantamentos de Requisitos.
 
-O conhecimento de SQL Developer aumentou durante o semestre, embora até ao final, há certas opções e possibilidades quase "escondidas", e de difícil acesso, como para modificar as Foreign Keys que já haviam sido declaradas no início do semestre para melhorar o projeto agora ao final, já que temos mais entendimento de como as Bases de Dados funcionam no geral, e termos utilizado bastante na disciplina de Programação também.
+O conhecimento de SQL Developer aumentou durante o semestre, embora até ao final, há certas opções e possibilidades quase "escondidas", e de difícil acesso, como por exemplo para modificar as Foreign Keys que já tinham sido declaradas no início do semestre para melhorar o projeto agora ao final, já que temos mais entendimento de como as Bases de Dados funcionam e termos utilizado bastante na disciplina de Programação também.
 
-Apesar das dificuldades e do tempo necessário para concretizar determinadas ações, a construção dos modelos ER, se bem planeadas anteriormente, é de fácil entendimento e feitura. Tivemos mais dificuldade para atualizar os dados feitos no início do semestre do que se criássemos todas as tabelas novamente, com as Entidades, Atributos e Relações completamente definidas.
+Apesar das dificuldades e do tempo necessário para concretizar determinadas ações, a construção dos modelos ER, se bem planeadas anteriormente, é de fácil entendimento e realização. Tivemos mais dificuldade para atualizar os dados feitos no início do semestre do que se criássemos todas as tabelas novamente, com as Entidades, Atributos e Relações completamente definidas.
 
 Podemos concluir que atingimos o objetivo do trabalho, que era de criar uma Base de Dados funcional, com todo o Modelo ER configurado. Através dos modelos Lógico e Relacional, é possível partir para a criação das tabelas e de todo o sistema de base de dados de uma clínica de COVID-19 sem problemas, utilizando esta Base de Dados criada.
 
