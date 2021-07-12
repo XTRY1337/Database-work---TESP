@@ -164,25 +164,27 @@ O modelo Relacional (ou Físico) é a instanciação do Modelo Lógico numa Base
 
 ## 3.1- Geral
 
-## 3.2 SQL Server/Oracle/MS Access
+## 3.2 SQL Server/Oracle/Mysql
 
-### 3.2.1 SQL Server
-INSERT
-SELECT
-UPDATE
-DELETE
-### 3.2.2 Oracle
-INSERT
-SELECT
-UPDATE
-DELETE
-### 3.2.3 MS Access
-INSERT
-SELECT
-UPDATE
-DELETE
+###INSERT
 
-## 3.3 MySQL
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+###SELECT
+
+SELECT * FROM table_name;
+SELECT attribute FROM table_name;
+
+###UPDATE
+
+UPDATE table_name
+SET column1 = value1, column2 = value2, ...
+WHERE condition;
+
+###DELETE
+
+DELETE FROM table_name WHERE condition;
 
 # 4- Conclusão
 
