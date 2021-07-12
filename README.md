@@ -5,11 +5,11 @@ Este trabalho, feito em conjunto com o Mateus Rocha, pretende demonstrar uma Bas
 
 # 2- Modelo E-R
 
-Um modelo Entidade Relacionamento (ER) é um modelo de dados para descrever os dados ou aspetos de informação de um domínio de negócio ou seus requisitos de processo, de uma maneira abstrata que em última análise se presta a ser implementada em uma base de dados, como uma base de dados relacional. Os principais componentes dos Modelos Entidade-Relacionamento (ER) são as entidades (coisas, objetos) suas relações e armazenamento em bancos de dados.
+Um modelo Entidade Relacionamento (ER) é um modelo de dados para descrever os dados ou aspetos de informação de um domínio de negócio ou seus requisitos de processo, de uma maneira abstrata que em última análise se presta a ser implementada em uma base de dados, como uma base de dados relacional. Os principais componentes dos Modelos Entidade-Relacionamento (ER) são as entidades (objetos), as suas relações e armazenamento na base de dados.
 
 ## 2-1 Descrição da BD
 
-É uma Base de Dados de um Centro de Testes de COVID-19, onde funcionários marcam testes para pacientes, enviam os dados dos testes realizados para laboratórios que, por fim, enviam o resultado do teste de volta.
+É uma Base de Dados de um Centro de Testes de COVID-19, onde funcionários marcam testes para pacientes, enviam os dados dos testes realizados para laboratórios que, por fim, enviam o resultado do teste novamente.
 
 BD: centro_testecovid
 
