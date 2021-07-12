@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8EA4F18E-E168-8581-72B7-A11AA1D270B7" name="FUNCAO">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>28BD52CC-FC3B-7FB9-239C-2F0D2AE81075</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Funcao_Id" id="F9B6F47B-62C0-99F6-2B2F-04D2802B1858">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>F43E7930-1AE9-7D99-EE39-AEB88D779DE1</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Actividade" id="DC27A0A5-16C5-AAFD-8D71-16D92BB371F3">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>DF9DBDB1-0CD8-6AFA-2D16-6F927DB048A3</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FUNCIONÁRIO_IDFuncionario" id="4F453D39-942F-7BA6-6AFB-61E357F50225">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:21:02 UTC</createdTime>
+<generatorID>52D7442F-6EB6-AE3D-BEC1-5764A22DAE9F</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A33AB86-33BD-AD2B-0550-1BAA829CFFCC" name="FUNCAO_PK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>D9251D2F-9BFA-D3B8-B35D-3F9689A073EB</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9B6F47B-62C0-99F6-2B2F-04D2802B1858"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="23176914-FBD9-941D-45D2-DD290F0ED7C2" name="FUNCAO__IDX">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:21:02 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5F7EAEBB-3562-16F6-4A59-EC0064860456</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="4F453D39-942F-7BA6-6AFB-61E357F50225"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C8608D1-526E-C12C-4C7D-2D681ED7635B" name="FUNCAO_FUNCIONÁRIO_FK">
+<createdBy>I7</createdBy>
+<createdTime>2021-07-11 14:02:00 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>
