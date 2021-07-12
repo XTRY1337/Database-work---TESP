@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E09D1C6-39E7-1C6D-03F4-D5AAC4892F61" name="MARCARTESTE_FL">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FUNCIONÁRIO_N_BilheteId" id="5191C03E-D7CD-E48D-6CEE-2274D295BFDB">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDBAEBFA-2085-5C3F-1CA9-4BF86BBEBB72" referredColumn="85007835-B420-0457-0B7E-8774D4DDE73F"/>
+</associations>
+</Column>
+<Column name="LABORATORIO_Contribuinte" id="1B29700D-A404-B6D5-29B3-EAB8EB1A4502">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C4CBFEFA-A591-C2B8-4FA7-7D1DE16D9374" referredColumn="5BED1175-8F2A-235D-3619-3351A2C38EBB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59CDF9B0-CDA3-DB6F-BDCB-72DB6230D47F" name="MARCARTESTE_FL_PK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5191C03E-D7CD-E48D-6CEE-2274D295BFDB"/>
+<colUsage columnID="1B29700D-A404-B6D5-29B3-EAB8EB1A4502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="132C9256-3D69-3F1F-AAEF-E6608EE35DA0" name="MARCARTESTE_FL_FUNCIONÁRIO_FK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<generatorID>840CA15C-31A7-8E9B-E813-78A05C51B4A4</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5191C03E-D7CD-E48D-6CEE-2274D295BFDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="768298A7-7A13-6459-3AEC-ADB32A5569C3" name="MARCARTESTE_FL_LABORATORIO_FK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<generatorID>840CA15C-31A7-8E9B-E813-78A05C51B4A4</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B29700D-A404-B6D5-29B3-EAB8EB1A4502"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
