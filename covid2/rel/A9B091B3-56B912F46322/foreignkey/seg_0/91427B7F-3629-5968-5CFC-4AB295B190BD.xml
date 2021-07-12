@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="91427B7F-3629-5968-5CFC-4AB295B190BD" containerWithKeyObject="2D9927FE-8E49-9533-9C4D-BAD731D5DC5E" localFKIndex="8813BF9C-DA40-3F99-FA72-C2527F83C9DF" name="MARCARTESTE_DATAS_FK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:21:02 UTC</createdTime>
+<generatorID>FDBADDDB-220D-6A27-CB41-FFA69FCCAEC0</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<referredTableLongName>DATAS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>64798A37-C2AE-BAB7-98C4-B38EA5006C9E</referredTableID>
+<keyObject>1A049AE9-AA8B-E185-10AA-EDC4A0B71F81</keyObject>
+<referredKeyID>1A049AE9-AA8B-E185-10AA-EDC4A0B71F81</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>DATAS_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
