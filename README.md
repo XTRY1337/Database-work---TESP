@@ -166,6 +166,22 @@ O modelo Relacional (ou Físico) é a instanciação do Modelo Lógico numa Base
 
 ## 3.2 SQL Server/Oracle/MS Access
 
+### 3.2.1 SQL Server
+INSERT
+SELECT
+UPDATE
+DELETE
+### 3.2.2 Oracle
+INSERT
+SELECT
+UPDATE
+DELETE
+### 3.2.3 MS Access
+INSERT
+SELECT
+UPDATE
+DELETE
+
 ## 3.3 MySQL
 
 # 4- Conclusão
