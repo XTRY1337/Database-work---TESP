@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="193591AF-4FD0-56FC-B993-B54AC94FFBD5" name="MARCARTESTE_FD">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="FUNCIONÁRIO_N_BilheteId" id="F3097F0A-E84F-BC6F-88E9-C32A8E2BD23E">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="55BF8857-8074-A7D1-C49E-F9BCA0A5EB0B" referredColumn="85007835-B420-0457-0B7E-8774D4DDE73F"/>
+</associations>
+</Column>
+<Column name="DATAS_DATAS_ID" id="83152D14-25D8-D03D-0B77-342F6542D1C1">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CC34FC6-551F-BDC1-40AB-B03D3962BF08" referredColumn="0C2BDA32-9E92-E4D2-4586-50BEAEEB9A11"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD23851E-6525-1887-1F59-A479F89EB563" name="Relation_9_PK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<ownerDesignName>covid2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3097F0A-E84F-BC6F-88E9-C32A8E2BD23E"/>
+<colUsage columnID="83152D14-25D8-D03D-0B77-342F6542D1C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="75936CE6-DCAD-B125-ACA7-AA40EF5BAE3A" name="Relation_9_FUNCIONÁRIO_FK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<generatorID>07BED956-E2E9-4847-E784-C71FAFD342E8</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F3097F0A-E84F-BC6F-88E9-C32A8E2BD23E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30414CA5-983C-83D3-6025-2E179BE0833F" name="Relation_9_DATAS_FK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:12 UTC</createdTime>
+<generatorID>07BED956-E2E9-4847-E784-C71FAFD342E8</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83152D14-25D8-D03D-0B77-342F6542D1C1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
