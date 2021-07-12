@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="90B41AF8-688B-BC00-52DC-C80361294FCC" name="LABORATORIO">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>2526C77F-A45A-90C7-B040-7F3FE1772228</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="IDLab" id="5BED1175-8F2A-235D-3619-3351A2C38EBB">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>4174E3DF-B54C-BAC0-15C3-B0D5E2A8CF7C</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nome" id="32DFCF77-3728-0227-F1FB-BB1C6C7A4427">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>1D33FA8F-2983-EEC6-7DEE-854912AE531B</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>90</dataTypeSize>
+<ownDataTypeParameters>90,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Telefone" id="50F44EAC-33C5-0EFB-81AC-9AFD900224E5">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>84857B32-C9C9-1B6E-41BA-F49B3AAABD7C</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Contribuinte" id="46767985-4812-1A6A-98BA-510EE7B21A36">
+<createdBy>I7</createdBy>
+<createdTime>2021-07-11 14:21:01 UTC</createdTime>
+<generatorID>ED898AE9-7D48-04BA-33EE-4C1DC1B0307C</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C642115-57E6-ADD7-476D-BFB600144D84" name="LABORATORIO_PK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 14:41:11 UTC</createdTime>
+<generatorID>FE832317-D318-AEAA-6310-A00799130CC9</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BED1175-8F2A-235D-3619-3351A2C38EBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
