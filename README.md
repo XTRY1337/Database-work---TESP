@@ -174,6 +174,7 @@ VALUES (value1, value2, value3, ...);
 ### SELECT
 
 SELECT * FROM table_name;
+
 SELECT attribute FROM table_name;
 
 ### UPDATE
