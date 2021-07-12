@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A4DEB6E9-A32E-753B-E315-D52AE0A5DC51" containerWithKeyObject="E383C27F-4F63-EDC8-DE81-05033BFD5665" localFKIndex="C94DA23E-DD64-AC7E-12B6-79D4B6A92419" name="TESTE_FUNCIONÁRIO_FK">
+<createdBy>1705389</createdBy>
+<createdTime>2021-04-29 15:21:02 UTC</createdTime>
+<generatorID>00726826-8E5D-2394-21F2-21745D383A46</generatorID>
+<ownerDesignName>covid2</ownerDesignName>
+<referredTableLongName>FUNCIONÁRIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4CCACED0-2B3A-4CEC-6880-CEA7F28C5591</referredTableID>
+<keyObject>8305909D-A4C1-F077-D63D-F2B08E75F46A</keyObject>
+<referredKeyID>8305909D-A4C1-F077-D63D-F2B08E75F46A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>IDFuncionario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
