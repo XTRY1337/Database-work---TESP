@@ -1,4 +1,4 @@
-# Francisco-1705126
+# Database work
 # 1- Descrição do Trabalho
 
 Este trabalho, feito em conjunto com o Mateus Rocha, pretende demonstrar uma Base de Dados criada para um Centro de Testes de COVID-19, para a disciplina de Bases de Dados I do Instituto Politécnico da Guarda. Será apresentada a descrição da Base de Dados, as entidades, atributos e relacionamentos presentes no Modelo Entidade-Relacionamento, imagens dos modelos Lógico e Relacional, exemplos de uso da sintaxe dos comandos de SQL, e por fim uma conclusão.
